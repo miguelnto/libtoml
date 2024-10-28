@@ -1,0 +1,12 @@
+*.orig
+*.rej
+
+# Binary files
+bin/
+
+# Object files
+*.o
+obj/
+
+# VSCode
+**/.vscode/

@@ -1,0 +1,21 @@
+# For those reading this:
+# Focus on understanding how to use the library instead of what this config file means.
+# For more information about this config file, go to:
+# https://github.com/miguelnto/sblocks
+
+delimeter = " | "
+
+[[block]]
+command = "battery"
+interval = 1
+signal = 3
+
+[[block]]
+command = "vol"
+interval = 0
+signal = 10
+
+[[block]]
+command = "datefmt"
+interval = 60
+signal = 1
