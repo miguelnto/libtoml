@@ -39,11 +39,11 @@ make install
 ```
 
 This will **build** and **install** the library.
-By default the library will be installed in the `/usr/lib` folder. You can change this in the `Makefile` file.
+By default the library will be installed in the `/usr/lib` folder. You can change this by editing the `Makefile`.
 
 - Uninstall:
 
-```
+```sh
 make uninstall
 ```
 
@@ -61,7 +61,7 @@ text = "something"
 num = 12
 ```
 
-We can properly read the contents of `config.toml` like this:
+We can read the contents of `config.toml` like this:
 
 ```c
 #include <stdio.h>
@@ -112,13 +112,11 @@ int main(void) {
 
 ## Reference
 
-The API is not likely to change, but for now I recommend reading the `toml.h` file if you want further information about the types and functions this library provides.
-
-If you want to have a look at a pratical example on how to use this library, please check out the [example](example/) directory.
+For now I suggest reading the `toml.h` file if you want further information about the types and functions this library provides.
 
 ## TODO
 
-I don't plan on supporting any other TOML feature beyond what is listed at the beginning of this README. For now I'll focus on cleaning the code and maybe make some small changes here and there.
+The API is unlikely to change. I'll be focusing on cleaning the code and make some small changes here and there.
 
 ## Credits
 
